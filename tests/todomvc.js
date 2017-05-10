@@ -5,7 +5,7 @@ module.exports = {
 
     browser
       .url('http://todomvc.com/examples/polymer/index.html')
-      .waitForElementVisible('input', 1000)
+      .waitForElementVisible('body', 1000)
       .assert.elementNotPresent(TODO_ITEM_SELECTOR)
       .setValue('input', TODO_TEXT)
       .keys(browser.Keys.ENTER)
