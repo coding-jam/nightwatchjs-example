@@ -1,13 +1,12 @@
 {
   "name": "nightwatchjs-example",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:coding-jam/nightwatchjs-example.git",
   "author": "Francesco Strazzullo <francesco.strazzullo86@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "nightwatch": "^0.9.15",
-    "selenium-standalone": "^6.4.1"
+    "nightwatch": "0.9.15",
+    "selenium-standalone": "6.4.1"
   },
   "scripts": {
     "test": "nightwatch",
