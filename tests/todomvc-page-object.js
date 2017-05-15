@@ -36,7 +36,7 @@ class TodoMVC {
 }
 
 module.exports = {
-  'TodoMVC - Add': function (browser) {
+  'TodoMVC - Add': browser => {
     const todomvc = new TodoMVC(browser)
     todomvc.open()
 
@@ -49,7 +49,7 @@ module.exports = {
         .assert.containsText(TODO_ITEM_SELECTOR, FIRST_TODO_TEXT)
         .end()
   },
-  'TodoMVC - Delete': function (browser) {
+  'TodoMVC - Delete': browser => {
     const todomvc = new TodoMVC(browser)
 
     todomvc

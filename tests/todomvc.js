@@ -1,5 +1,5 @@
 module.exports = {
-  'TodoMVC - Add': function (browser) {
+  'TodoMVC - Add': browser => {
     const TODO_ITEM_SELECTOR = 'ul[id="todo-list"] li'
     const TODO_TEXT = 'This is my first Todo'
 
