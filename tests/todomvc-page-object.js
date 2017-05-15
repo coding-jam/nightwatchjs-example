@@ -61,7 +61,7 @@ module.exports = {
         .assert.elementNotPresent(TODO_ITEM_SELECTOR)
         .end()
   },
-  'TodoMVC - Delete More': function (browser) {
+  'TodoMVC - Delete More': browser => {
     const todomvc = new TodoMVC(browser)
 
     todomvc
